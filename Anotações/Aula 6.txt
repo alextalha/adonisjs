@@ -1,0 +1,16 @@
+# Recuperação de Senha
+
+Index, Store , Show, Update, Destroy => crud
+
+adonis  make:controller ForgotPassword
+
+
+
+###Adicionar dois novos campos na tabela de usuario
+
+Criaremos uma migration
+
+
+#Daremos um rollback nas tabelas pela migration
+
+> Adonis migration:rollback
