@@ -1,0 +1,3 @@
+Autenticação via JWT - Sessão
+
+/config/auth.js => arquivo de configuração para verificar qual tipo de autenticação usar
