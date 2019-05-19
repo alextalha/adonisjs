@@ -1,0 +1,61 @@
+AULA 1
+
+Adonis JS - UM express mais robusto
+
+npm install -g @adonisjs/cli
+npm i -g @adonisjs/cli
+
+adonis =>  mostrando os comandos
+
+
+#iniciar
+adonis new -h
+
+
+#criar o scaffolding do projeto
+
+adonis new gonode --api-only
+
+==========================================================================================
+
+AULA 2
+
+ESLINT
+
+npm install -D eslint
+
+npx eslint --init
+
+
+eslintrc.json
+
+adicionar ao globar
+
+   "use": true
+
+
+==========================================================================================
+
+AULA 3 - BANCO DE DADOS
+
+# instalar o postgres
+npm i --save pg
+
+npm i -g @adonisjs/cli
+=======================================================================================
+
+
+AULA 4 - Criando Usuario
+
+adonis make:controller User
+
+adonis route:list // listar as rotas cadastradas
+
+Programa Insomina bom para testar requests
+
+
+static boot na classe do Usuario é como se fosse o constructor
+
+https://insomnia.rest/download/
+
+========================================================================================
