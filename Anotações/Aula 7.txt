@@ -1,0 +1,25 @@
+#Recuperação de Email
+
+adonis install @adonisjs/mail
+
+mailtrap.io
+
+adicionar o provider no app.js
+
+const providers = [
+  @adonisjs/mail/providers/MailProvider
+]
+
+
+
+Após logart no mailtrap.io pegamos a configuração do mesmo e fazemos uns ajustes no arquivo de ENV.
+
+
+instanciamos a classe de MAIL, e como nossa aplicação foi pensada para api  e não tem a parte visual da view,
+vamos instanciar a view.
+
+
+# similar ao nodemon rodando a cada atualização
+adonis serve --dev
+
+
